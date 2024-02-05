@@ -16,10 +16,12 @@ const Hero = () => {
 
         <div>
           <h1 className={`${styles.heroHeadText} text-white`}>
-            Hi, I'm <span className='text-[#915EFF]'>Gopi Kiran</span>
+            Hi, I'm <span className='text-[#915EFF]'>Adrian</span>
           </h1>
-          <p className={`${styles.heroSubText} mt-2 text-white-100`}> I am a FullStack Developer with Experience in Python, Django, React.js, 3D visuals,
-            <br className='sm:block hidden' /> User interfaces and Web applications </p>
+          <p className={`${styles.heroSubText} mt-2 text-white-100`}>
+            I develop 3D visuals, user <br className='sm:block hidden' />
+            interfaces and web applications
+          </p>
         </div>
       </div>
 
@@ -30,7 +32,6 @@ const Hero = () => {
           <div className='w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2'>
             <motion.div
               animate={{
-
                 y: [0, 24, 0],
               }}
               transition={{
