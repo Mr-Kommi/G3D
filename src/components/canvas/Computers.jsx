@@ -1,3 +1,7 @@
+/* eslint-disable react/no-unknown-property */
+/* eslint-disable react/prop-types */
+/* eslint-disable no-unused-vars */
+
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
@@ -9,7 +13,8 @@ const Computers = ({ isMobile }) => {
 
   return (
     <mesh>
-      <hemisphereLight intensity={0.15} groundColor='black' />
+      <hemisphereLight intensity={0.15} groundColor={'black'} />
+
       <spotLight
         position={[-20, 50, 10]}
         angle={0.12}
@@ -18,6 +23,7 @@ const Computers = ({ isMobile }) => {
         castShadow
         shadow-mapSize={1024}
       />
+
       <pointLight intensity={1} />
       <primitive
         object={computer.scene}
