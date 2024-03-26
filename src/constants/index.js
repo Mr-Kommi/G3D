@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import {
     mobile,
     backend,
@@ -6,7 +7,7 @@ import {
     javascript,
     typescript,
     html,
-    css,
+    // css,
     reactjs,
     redux,
     tailwind,
@@ -23,9 +24,20 @@ import {
     jobit,
     tripguide,
     threejs,
+    azure,
+    django,
+    TCSNS,
+    nationwide,
+    jntuk,
+    csulb,
+    bavana,
+    venky,
+    yeswanth,
+    eswar,
+    raveena,
+    kalyan,
 
 } from "../assets";
-// import { tcs, nationwide } from "../assets";
 
 export const navLinks = [
     {
@@ -70,13 +82,21 @@ const technologies = [
         name: "HTML 5",
         icon: html,
     },
-    {
-        name: "CSS 3",
-        icon: css,
-    },
+    // {
+    //     name: "CSS 3",
+    //     icon: css,
+    // },
     {
         name: "JavaScript",
         icon: javascript,
+    },
+    {
+        name: "Django",
+        icon: django,
+    },
+    {
+        name: "Azure",
+        icon: azure,
     },
     {
         name: "TypeScript",
@@ -121,23 +141,49 @@ const technologies = [
 ];
 
 const experiences = [
+
     {
-        title: "React.js Developer",
-        company_name: "Starbucks",
-        icon: starbucks,
+        title: "Bachelors in Computer Science",
+        company_name: "JNTUK",
+        icon: jntuk,
         iconBg: "#383E56",
-        date: "March 2020 - April 2021",
+        date: "March 2015 - April 2019",
         points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
+            "Studied computer science and gained proficiency in web development using React.js and related technologies.",
+            "Participated in various projects and collaborated with peers to develop web applications.",
+            "Focused on responsive design principles and cross-browser compatibility to enhance user experience.",
         ],
     },
     {
-        title: "React Native Developer",
-        company_name: "Tesla",
-        icon: tesla,
+
+        title: "Software Developer",
+        company_name: "TCS",
+        icon: TCSNS,
+        iconBg: "#383E56",
+        date: "Apr 2019 - Sep 2021",
+        points: [
+            "Contributed to software development projects using React.js and related technologies in an enterprise environment.",
+            "Worked collaboratively with teams to implement responsive design and ensure compatibility across browsers.",
+            "Engaged in code reviews and provided feedback to improve code quality and maintainability.",
+        ],
+    },
+
+    {
+        title: "MS in Computer Science",
+        company_name: "Californi State University Long Beach",
+        icon: csulb,
+        iconBg: "#E6DEDD",
+        date: "Aug 2021 - May 2023",
+        points: [
+            "Advanced studies in computer science, specializing in web development technologies such as React.js.",
+            "Collaborated with peers on academic projects to develop and maintain web applications.",
+            "Emphasized responsive design and cross-browser compatibility to deliver user-friendly software solutions.",
+        ],
+    },
+    {
+        title: "Software Developer",
+        company_name: "Nationwide",
+        icon: nationwide,
         iconBg: "#E6DEDD",
         date: "Jan 2021 - Feb 2022",
         points: [
@@ -147,82 +193,84 @@ const experiences = [
             "Participating in code reviews and providing constructive feedback to other developers.",
         ],
     },
-    {
-        title: "Web Developer",
-        company_name: "Shopify",
-        icon: shopify,
-        iconBg: "#383E56",
-        date: "Jan 2022 - Jan 2023",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
-    {
-        title: "Full stack Developer",
-        company_name: "Meta",
-        icon: meta,
-        iconBg: "#E6DEDD",
-        date: "Jan 2023 - Present",
-        points: [
-            "Developing and maintaining web applications using React.js and other related technologies.",
-            "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-            "Implementing responsive design and ensuring cross-browser compatibility.",
-            "Participating in code reviews and providing constructive feedback to other developers.",
-        ],
-    },
+
+
+    // {
+    //     title: "Web Developer",
+    //     company_name: "Shopify",
+    //     icon: shopify,
+    //     iconBg: "#383E56",
+    //     date: "Jan 2022 - Jan 2023",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
+    // {
+    //     title: "Full stack Developer",
+    //     company_name: "Meta",
+    //     icon: meta,
+    //     iconBg: "#E6DEDD",
+    //     date: "Jan 2023 - Present",
+    //     points: [
+    //         "Developing and maintaining web applications using React.js and other related technologies.",
+    //         "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+    //         "Implementing responsive design and ensuring cross-browser compatibility.",
+    //         "Participating in code reviews and providing constructive feedback to other developers.",
+    //     ],
+    // },
 ];
 
 const testimonials = [
     {
         testimonial:
-            "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-        name: " Venkatesh Ramoju",
+            "Gopi's expertise and dedication have truly impressed me. He made our website as beautiful as our product, exceeding our expectations.",
+        name: "Venkatesh Ramoju",
         designation: "Software Developer",
         company: "Amazon",
-        image: "https://randomuser.me/api/portraits/women/4.jpg",
+        image: venky,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
+            "Gopi's commitment to our project's success is unparalleled. His attention to detail and client-focused approach have made a significant impact.",
         name: "Eswar Balisetty",
         designation: "Software Developer",
         company: "CSU Long Beach",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+        image: eswar,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "Gopi's optimization skills are outstanding. After his work, our website saw a 50% increase in traffic. We're incredibly grateful for his contributions.",
         name: "Bavan Pabba",
         designation: "SDE",
         company: "Enterprises",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: bavana,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "Gopi's dedication to excellence is unmatched. His expertise has significantly contributed to our project's success, and we're thrilled with the results.",
         name: "Yeswanth Pabba",
         designation: "SDE",
         company: "Tik Tok",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: yeswanth,
     },
     {
         testimonial:
-            "I've never met a web developer who truly cares about their clients' success like Rick does.",
-        name: "Sudheer Dhadala",
-        designation: "Data Analyst",
-        company: "Beakon Hill",
-        image: "https://randomuser.me/api/portraits/men/5.jpg",
+            "Working with Gopi has been a pleasure. His passion for his work and commitment to delivering top-notch results are truly commendable.",
+        name: "Kalayn Badham",
+        designation: "Software Developer",
+        company: "DP world",
+        image: kalyan,
     },
     {
         testimonial:
-            "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+            "Gopi's expertise in website optimization has been invaluable to our team. Thanks to his efforts, our website's traffic increased significantly.",
         name: "Raveena Allam",
         designation: "SDE",
         company: "QWER",
-        image: "https://randomuser.me/api/portraits/women/6.jpg",
+        image: raveena,
     },
 
 ];
