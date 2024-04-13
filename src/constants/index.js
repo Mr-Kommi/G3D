@@ -245,7 +245,7 @@ const testimonials = [
             "Gopi's optimization skills are outstanding. After his work, our website saw a 50% increase in traffic. We're incredibly grateful for his contributions.",
         name: "Bavan Pabba",
         designation: "SDE",
-        company: "Enterprises",
+        company: "University Of Southern California",
         image: bavana,
     },
     {
